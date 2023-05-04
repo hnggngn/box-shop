@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "unocss \"**/*.{php,css,js}\" -w",
+    "build": "unocss \"**/*.{php,css,js}\" -m"
+  },
+  "devDependencies": {
+    "@unocss/cli": "^0.51.8",
+    "browserslist": "^4.21.5",
+    "esbuild": "^0.17.18",
+    "lightningcss": "^1.20.0",
+    "unocss": "^0.51.8",
+    "unocss-preset-autoprefixer": "^0.0.5"
+  },
+  "dependencies": {
+    "@iconify-json/bxl": "^1.1.6",
+    "@iconify-json/solar": "^1.1.1"
+  }
+}
